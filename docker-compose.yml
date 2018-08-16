@@ -1,6 +1,7 @@
 jenkins:
   image: 'jenkinsci/blueocean'
   restart: always
+  user: root
   ports:
     - '8080:8080'
     - '50000:50000'
